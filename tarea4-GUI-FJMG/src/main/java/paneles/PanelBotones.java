@@ -38,7 +38,9 @@ public class PanelBotones extends JPanel {
         this.setLayout(new GridLayout(4, 4));
 
         for (JButton boton : grupoBotones) {
+            
             this.add(boton);
+        
         }
     }
 
